@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titulo h1{
+    display: flex;
+    height: 45px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    width: 416px;
+}
+.input-box{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 4px;
+    margin: 2px;
+}
+.fundo{
+    background-color: rgb(219, 219, 219);
+    width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+}
+.sexo{
+    display: flex;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+.container{
+    color: black;
+    font-size: 16px;
+    padding: 4px;
+}
+.f2{
+    border: 1px solid black;
+    width: 416px;
+    height: 300px;
+}
+button{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 3px;
+}
+button:hover{
+    cursor: pointer;
+}

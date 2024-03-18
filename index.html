@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Título Do Formulario-->
+    <div class="f2">
+    <div class="titulo">
+        <h1>Formulário de Cadastro</h1>
+    </div>
+    <!--principal-->
+    <div class="fundo">
+    <div class="input-box">
+        <label for="nome">Nome: </label>
+        <input type="nome" class="nome" id="nome">
+    </div>
+    <div class="input-box">
+        <label for="email">Email: </label>
+        <input type="email" class="emal" id="email">
+    </div>
+    <div class="input-box">
+        <label for="password">Senha: </label>
+        <input type="password" class="password" id="password">
+    </div>
+    <!--Sexo-->
+    <div class="sexo"> 
+        <label>Sexo:</label>
+        <select name="group" id="group">
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Outro</option>
+        </select>
+    </div>
+</div>
+    <!--CheckBox-->
+    <p>Interesses:
+        <input type="checkbox">
+        <label class="container">Esporte
+            <span class="checkmark"></span>
+        </label>
+        <input type="checkbox">
+        <label class="container">Tecnologia
+            <span class="checkmark"></span>
+        </label>
+        <input type="checkbox">
+        <label class="container">Viagem
+            <span class="checkmark"></span>
+        </label>
+
+        <!--caixa de texto-->
+    <div class="caixacoment">
+        <label for="coment">Comentários</label> <br>
+        <textarea name="coment" id="coment" cols="" rows=""></textarea>
+    </div>
+    <button>Enviar</button>
+</div>
+</body>
+
+</html>
